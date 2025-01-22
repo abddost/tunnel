@@ -50,6 +50,6 @@ app.post("/", async (req, res) => {
   }
 });
 
-app.listen(8087, () => {
-  console.log("Started server on port 8087");
+app.listen(8000, () => {
+  console.log("Started server on port 8000");
 });
