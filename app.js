@@ -3,7 +3,7 @@ const axios = require("axios");
 const bodyParser = require("body-parser");
 
 const app = express();
-const targetBaseUrl = "https://2960-84-54-82-215.ngrok-free.app/v1/email/nylas/webhook";
+const targetBaseUrl = "https://9a74-84-54-82-215.ngrok-free.app/v1/email/nylas/webhook";
 
 // Disable SSL validation for development (remove in production)
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
